@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+background-image: url(../galaxy-space-wallpaper-in-the-style-of-dark-violet-and-light-violet-realistic-usage-of-light-and-color-richly-colored-skies-realistic-textures-generat-ai-free-photo.jpg); 
+background-repeat: no-repeat;
+background-size: cover;
+}
+    
+    .chicken{
+        display: flex;
+        position: relative;
+        justify-items: center;
+        align-items: center;
+        justify-content: space-between;
+        align-content: space-between;
+        flex-wrap: nowrap;
+        margin: 10px;
+        padding: 10px;
+    }
+    .chicken_2{
+        margin: 25px;
+        padding: 15px;
+        display: flex;
+        position: relative;
+        justify-items: center;
+        align-items: center;
+        justify-content: space-between;
+        align-content: space-between;
+        flex-wrap: nowrap;
+    }
+    .chicken_3{
+        margin: 27px;
+        padding: 15px;
+        display: flex;
+        position: relative;
+        justify-items: center;
+        align-items: center;
+        justify-content: space-around;
+        align-content: space-around;
+        flex-wrap: nowrap;
+    }
+    .eggs{
+        display: flex;
+        position: relative;
+        justify-items: center;
+        align-items: center;
+        justify-content: space-between;
+        align-content: space-between;
+        flex-wrap: nowrap;
+        margin: 60px;
+        padding: 50px;
+
+    }
+    .container{
+        width: 80px;
+        height: 80px;
+        /* background-color: blue; */
+        position: absolute;
+        left : 450px;
+        bottom: 0;
+        transition: 1s;
+    }
+    .type{
+        width: 10px;
+        height: 10px;
+        background-color:chartreuse;
+        position: absolute;
+        left : 44%;
+        bottom: 90px;
+        transition: 0.4s;
+    border-radius: 50%;
+    }
